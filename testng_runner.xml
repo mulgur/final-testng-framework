@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="WebOrders Automation" verbose="2">
+
+	<test name="Automated tests">
+		<packages>
+			<!--running all the tests inside specific packages -->
+			<package name="com.cbt.tests.order"></package>
+		
+			<!--running all the tests inside packages, also called Batch run -->
+		</packages>
+	</test>
+
+</suite>
+
