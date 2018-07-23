@@ -14,7 +14,8 @@ public class AllOrdersPage {
 	//add comment
 	
 	//another comment
-
+	
+	//enough with your freaking comments
 	@FindBy(xpath = "//h1[.='Web Orders']")
 	public WebElement webOrders;
 
