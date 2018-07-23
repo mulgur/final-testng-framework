@@ -11,6 +11,7 @@ public class AllOrdersPage {
 	public AllOrdersPage() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
+	//add comment
 
 	@FindBy(xpath = "//h1[.='Web Orders']")
 	public WebElement webOrders;
